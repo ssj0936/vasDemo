@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="lib/w3.css">
+
+    <!--JQuery icon-->
+    <!-- http://mkkeck.github.io/jquery-ui-iconfont/ -->
+    <link rel="stylesheet" type="text/css" href="lib/jquery-ui-iconfont-master/jquery-ui.icon-font.css" />
+
+    <link rel="stylesheet" href="leaflet-src/leaflet.css" />
+    <script src="leaflet-src/leaflet.js"></script>
+
+    <link rel="stylesheet" href="node_modules/leaflet-easybutton/src/easy-button.css" />
+    <script src="node_modules/leaflet-easybutton/src/easy-button.js"></script>
+
+    <!--ChartJS-->
+    <!-- modified chartjs with duo axes-->
+    <!--    <script src="https://raw.githack.com/leighquince/Chart.js/master/Chart.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
+    <!--<script src="Chart.js-master/Chart.js"></script>-->
+    <script src="lib/lineOption.js"></script>
+
+    <!--Marker cluster-->
+    <script src="PruneCluster-master/dist/PruneCluster.js"></script>
+    <link rel="stylesheet" href="PruneCluster-master/dist/LeafletStyleSheet.css" />
+
+    <!--geojson topojson converter-->
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="lib/geojson-vt-dev.js"></script>
+    <script src="lib/L.CanvasTiles.js"></script>
+    <script src='lib/leaflet-pip-custom.js'></script>
+    <script src='lib/simplifygeometry-0.0.2.min.js'></script>
+    <script src="lib/heatmap.min.js"></script>
+    <script src="lib/leaflet-heatmap.js"></script>
+
+    <!--map search-->
+    <!--https://github.com/smeijer/L.GeoSearch-->
+    <script src="lib/L.GeoSearch-develop/src/js/l.control.geosearch.js"></script>
+    <script src="lib/L.GeoSearch-develop/src/js/l.geosearch.provider.esri.js"></script>
+
+<!--    <script src="lib/L.GeoSearch-develop/src/js/l.geosearch.provider.google.js"></script>-->
+    <link rel="stylesheet" href="lib/L.GeoSearch-develop/src/css/l.geosearch.css" />
+
+    <!--data Table-->
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <!--data Table - export-->
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/buttons/1.2.1/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/buttons/1.2.1/js/buttons.flash.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/buttons/1.2.1/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/buttons/1.2.1/js/buttons.print.min.js"></script>
+
+    <!--Gap mode export        -->
+    <script src="https://cdn.rawgit.com/eligrey/Blob.js/0cef2746414269b16834878a8abc52eb9d53e6bd/Blob.js"></script>
+    <script src="https://cdn.rawgit.com/eligrey/FileSaver.js/e9d941381475b5df8b7d7691013401e171014e89/FileSaver.min.js"></script>
+
+    <link rel="stylesheet" href="//cdn.datatables.net/buttons/1.2.1/css/buttons.dataTables.min.css" />
+
+    <!--DATA-->
+    <script src="world_country_min.js"></script>
+
+    <script src="lib/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+    <!--VAR-->
+  
+</head>
+
+<body>
+    <script src="scriptLoad.js"></script>
+
+    <div id="fullscreenContainer"></div>
+    <div class='toast' style="display: none"></div>
+
+    <div id="star-tooltip">
+        <span class="star-tooltip-img"></span>
+        <span class="star-tooltip-text">The activation counts of the models marked with (*) will progressively be closer to the real number over time when we get more precise location data.</span>
+    </div>
+
+    <div id="dateDropdown">
+        <!--        <div id="body" class="row">-->
+        <div class="dateDropdownSector" id="dateDropdownLeft">
+            <div id="timeSection">
+                <p><b>Select date range</b></p>
+                <div class="btn-group" id="timeSectionBtnDiv">
+                    <button type="button" id="timeSectionBtnButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Time Period <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li id="btnLastSeven"><a href="#">Last 7 Days</a></li>
+                        <li id="btnLastThirty"><a href="#">Last 30 Days</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="datepickContainer">
+                <p><b>Custom</b></p>
+                <div class="customTimeSelectorContainer">
+                    <span class="customTimeSelectorLabel">START:</span>
+                    <input class="timeSelectorInput customTimeSelectorInput" value="From Time" type="text" id="from" name="from" placeholder="START">
+                </div>
+                <div class="customTimeSelectorContainer">
+                    <span class="customTimeSelectorLabel">END:</span>
+                    <input class="timeSelectorInput customTimeSelectorInput" value="To Time" type="text" id="to" name="to" placeholder="END">
+                </div>
+            </div>
+            <div id="okBtnContainer">
+                <button type="button" class="btn btn-default submit" id="dateOK">OK</button>
+            </div>
+        </div>
+        <div class="dateDropdownSector needTohideAtFirst" id="dateDropdownRight">
+            <div id="datePicker"></div>
+        </div>
+    </div>
+
+    <!--use for all chart-->
+
+
+    <!--left side-->
+    <!--
+    <div id="toggle">
+        <span id="toggleIcon" class="ui-icon ui-icon-carat-1-w"></span>
+    </div>
+-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand cursorDefault" href="#">VAS</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li id="account"><a href="#" class="cursorDefault"><span id="navAccount" class="glyphicon glyphicon-user"></span></a></li>
+                <li id="toggleControlPanel"><a href="#"><span id="toggleControlPanelIcon" class="glyphicon glyphicon-menu-up"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="bodyContainer" class="container-fluid">
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div id="popupChartContainer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="body" class="row">
+            <div class="collapseBtnPart">
+                <span class="filterCollapseBtn"><</span>
+            </div>
+            <div id="selector" class='col-xs-2'>
+                <!--                <div id="selectorContainer" class="row">-->
+                <div id="homeMenuLeft" class="homeMenu">
+                    <div id="mainFunctionContainer">
+                        <div id='activationTitle' class="homeMenuItem">
+                            <span class="homeMenuItemIcon glyphicon glyphicon-tasks"></span>
+                            <label>Activation</label>
+                        </div>
+                        <div id='activationTitleList' class="homeMenuList">
+                            <div class="homeMenuListItem" data-value="activation">Activation Map</div>
+                            <div class="homeMenuListItem" data-value="activationTrend">Activation Trend</div>
+                            <div class="homeMenuListItem" data-value="activationDistribution">Activation Distribution</div>
+                            <div class="homeMenuListItem" data-value="activationTable">Activation Table</div>
+<!--                            <div class="homeMenuListItem" data-value="gap">GAP by branch</div>-->
+<!--                            <div class="homeMenuListItem" data-value="parallel">Parallel Goods</div>-->
+                            <div class="homeMenuListItem" data-value="lifezone">LifeZone</div>
+<!--                            <div class="homeMenuListItem" data-value="distBranch">Branch vs. Disti</div>-->
+<!--                            <div class="homeMenuListItem" data-value="qc">CFR Map</div>-->
+                        </div>
+                    </div>
+                    <div id="collapseBtnContainer" class="homeMenuItem">
+                        <span class="sideCollapseBtn homeMenuItemIcon glyphicon glyphicon-chevron-left"></span>
+                    </div>
+                </div>
+                <div id="homeMenuRight" class="homeMenu">
+                    <div class="filterPart">
+                        <div class="filterContainer hiddenScrollBar">
+                            <div id="dateContainer" class="filterSelector">
+                                <label>Date:</label>
+                                <div id='databtn' style="display: inline-block;vertical-align: top; width:100%">
+                                    <button type="button" class="btn btn-default date">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                        <span id="dateTextDisplay">Date</span>
+                                        <span class="caret"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="filterDeviceContainer">
+                                <div class="filter_section" id="section_target">Device
+                                    <img src="img/ic_info_outline.png" id="starHintIcon">
+                                </div>
+                                <div id="selector_target" class="selector">
+                                    <div id="deviceFilter" class="customScrollBar"></div>
+                                </div>
+                            </div>
+
+                            <div id="filterCountryContainer">
+                                <div class="filter_section" id="section_country">Country<span></span></div>
+                                <div id="selector_location" class="selector">
+                                    <div id="locationFilter" class="customScrollBar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submitContainer">
+                            <button class="selector" id="submit">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="rightSideArea" class='col-xs-10 customScrollBar scrollBarAlwayShow'>
+                <!--up side-->
+                <div id="control_Panel">
+                    <!--right side function button-->
+                    <div class="titleBar needTohideAtFirst">
+                        <div class="margin-left-20px">
+                            <span id="title"></span>
+                            <div class="control_panel_right" style="float:right; display:none;">
+                                <div id="export">
+                                    <button id="panelRightButton" type="button" class="needTohideAtFirst btn btn-default">Export</button>
+
+                                    <div id="panelRightButtonGroup" class="needTohideAtFirst btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Export <span class="caret"></span></button>
+                                        <ul class="dropdown-menu dropdown-menu-right" id="panelRightButtonGroupUl" role="menu"></ul>
+                                    </div>
+                                </div>
+                                <!--                                <button id="export" class="rightPanelButton">Export</button>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--left side function button-->
+                    <div class="control_panel_btn_area">
+                        <div id="lifezoneControlPanel" class="needTohideAtFirst controlPanel">
+
+
+                            <div class="functionContainer">
+                                <div class="margin-left-20px">
+                                    <div id="lifezoneWeekDay" class="functionPanel">
+                                        <label class="buttonSetLable" for="lifezoneWeekDaySlider" style="width: auto;">Day of the Week</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="lifezoneWeekDayBtnset" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Day of the Week <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="lifezoneWeekDayBtnset" id="mon" data-value="1"><a href="#">Mon</a></li>
+                                                <li class="lifezoneWeekDayBtnset" id="tue" data-value="2"><a href="#">Tue</a></li>
+                                                <li class="lifezoneWeekDayBtnset" id="wed" data-value="3"><a href="#">Wed</a></li>
+                                                <li class="lifezoneWeekDayBtnset" id="thu" data-value="4"><a href="#">Thu</a></li>
+                                                <li class="lifezoneWeekDayBtnset" id="fri" data-value="5"><a href="#">Fri</a></li>
+                                                <li class="lifezoneWeekDayBtnset" id="sat" data-value="6"><a href="#">Sat</a></li>
+                                                <li class="lifezoneWeekDayBtnset" id="sun" data-value="7"><a href="#">Sun</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div id="lifezonePartOfDay" class="functionPanel needLeftBorder">
+                                        <label class="buttonSetLable" for="lifezonePartOfDaySlider" style="width: auto;">Part of the Day</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="lifezonePartOfDayBtnset" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Part of the Day <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="lifezonePartOfDayBtnset" id="timePeriod1" data-value="1"><a href="#">10:00 - 14:00</a></li>
+                                                <li class="lifezonePartOfDayBtnset" id="timePeriod2" data-value="2"><a href="#">14:00 - 18:00</a></li>
+                                                <li class="lifezonePartOfDayBtnset" id="timePeriod3" data-value="3"><a href="#">18:00 - 22:00</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="activationControlPanel" class="needTohideAtFirst controlPanel">
+                            <div class="functionContainer">
+                                <div class="margin-left-20px">
+                                    <div id="mode" class="functionPanel" style="margin-top: 3px;display:inline-block;">
+                                        <label class="buttonSetLable" for="mode">Layer</label>
+                                        <button type="button" class="btn btn-default mode" id="region">Region</button>
+                                        <button type="button" class="btn btn-default mode" id="marker">Marker</button>
+                                    </div>
+
+                                    <div id="dimension" class="functionPanel needLeftBorder" style="margin-top: 3px;display:inline-block;">
+                                        <label class="buttonSetLable" for="dimension">Dimension</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="dimensionSelector" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dimension <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="dimension" data-dimension="dimension_country"><a href="#">Country</a></li>
+<!--                                                <li class="dimension" data-dimension="dimension_branch"><a href="#">Branch</a></li>-->
+                                                <li class="dimension" data-dimension="dimension_l1"><a href="#">1st-level division</a></li>
+                                                <li class="dimension" data-dimension="dimension_l2"><a href="#">2nd-level division</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="showtrendContainer">
+                                        <button type="button" class="btn btn-default showtrend" id="showtrendActivation">Show Trend</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="parallelControlPanel" class="needTohideAtFirst controlPanel">
+                            <div class="functionContainer">
+                                <div class="margin-left-20px">
+                                    <div id="parallelMode" class="functionPanel" style="margin-top: 3px;">
+                                        <label class="buttonSetLable" for="parallelMode">Mode</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="parallelModeSelector" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Mode <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="parallelMode" id="parallelImport"><a href="#">Parallel Import</a></li>
+                                                <li class="parallelMode" id="parallelExport"><a href="#">Parallel Export</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="qcControlPanel" class="needTohideAtFirst controlPanel">
+
+                            <div class="functionContainer">
+                                <div class="margin-left-20px">
+                                    <div id="qcMode" class="functionPanel" style="margin-top: 3px;">
+                                        <label class="buttonSetLable">Mode</label>
+                                        <button type="button" class="btn btn-default qcMode" id="qcRegion">Region</button>
+                                        <button type="button" class="btn btn-default qcMode" id="qcMarker">Marker</button>
+                                    </div>
+                                    <div id="qcView" class="functionPanel needLeftBorder" style="margin-top: 3px;">
+                                        <label class="buttonSetLable">View</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="qcViewSelector" class="btn btn-default dropdown-toggle" data-toggle="dropdown">View <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="qcView" id="qcMucModule" data-value="muc"><a href="#">MUC MODULE</a></li>
+                                                <li class="qcView" id="qcLmdPartGroup" data-value="lmd"><a href="#">LMD PART GROUP</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 3px;" class="functionPanel needLeftBorder">
+                                        <label class="buttonSetLable">Category</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="qcCategory" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Category <span class="caret"></span></button>
+                                            <ul id="qcCategoryUl" class="dropdown-menu" role="menu">
+                                                <li class="qcCategory" value="ALL"><a href="#">All</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="showtrendContainer">
+                                        <button type="button" class="btn btn-default showtrend" id="showtrendCFR">Show Trend</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="activationTrendControlPanel" class="needTohideAtFirst controlPanel">
+
+                            <div class="functionContainer">
+                                <div class="margin-left-20px">
+                                    <div class="functionPanel">
+                                        <label class="buttonSetLable" for="activationTrendBy">Trend by</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="activationTrendBy" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Trend by <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="activationTrendBy" id="activationTrendByModel"><a href="#">Model</a></li>
+                                                <li class="activationTrendBy" id="activationTrendByDevice"><a href="#">Model(RAM/ROM)</a></li>
+                                                <li class="activationTrendBy" id="activationTrendByRegion"><a href="#">Region</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="functionPanel needLeftBorder needTohideAtFirst" id="activationTrendRight">
+                                        <label class="buttonSetLable" for="activationTrendLevel">Level</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="activationTrendLevel" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Level <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="activationTrendLevel" id="activationTrendLevelCountry"><a href="#">Country</a></li>
+<!--                                                <li class="activationTrendLevel" id="activationTrendLevelBranch"><a href="#">Branch</a></li>-->
+                                                <li class="activationTrendLevel" id="activationTrendLevelL1"><a href="#">1st-level division</a></li>
+                                                <li class="activationTrendLevel" id="activationTrendLevelL2"><a href="#">2nd-level division</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="functionPanel needLeftBorder">
+                                        <label class="buttonSetLable" for="activationTrendTimeScale">Timescale</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="activationTrendTimeScale" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Timescale <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="activationTrendTimeScale" id="activationTrendTimescaleDay"><a href="#">Day</a></li>
+                                                <li class="activationTrendTimeScale" id="activationTrendTimescaleWeek"><a href="#">Week</a></li>
+                                                <li class="activationTrendTimeScale" id="activationTrendTimescaleMonth"><a href="#">Month</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="functionPanel needLeftBorder" id="activationShowSelector" style="margin-top: 3px;">
+                                        <label class="buttonSetLable" for="activationShowSelector">Show</label>
+                                        <div class="btn-group">
+                                            <button type="button" id="showSelector" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Show <span class="caret"></span></button>
+                                            <ul id="showSelectorUl" class="dropdown-menu" role="menu"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="activationDistributionControlPanel" class="needTohideAtFirst controlPanel">
+
+                            <div class="functionContainer">
+                                <div class="margin-left-20px">
+                                    <div id="activationDistributedLeft" class="functionPanel">
+                                        <label class="buttonSetLable" for="activationDistributedBy" style="width: 100px;">Distributed by</label>
+
+                                        <div class="btn-group">
+                                            <button type="button" id="activationDistributedBy" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Distributed by <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="activationDistributedBy" id="activationDistributedByModel"><a href="#">Model</a></li>
+                                                <li class="activationDistributedBy" id="activationDistributedByDevice"><a href="#">Model(RAM/ROM)</a></li>
+                                                <li class="activationDistributedBy" id="activationDistributedByRegion"><a href="#">Region</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div id="activationDistributedRight" class="functionPanel needTohideAtFirst">
+                                        <label class="buttonSetLable" for="activationDistributedLevel">Level</label>
+
+                                        <div class="btn-group">
+                                            <button type="button" id="activationDistributedLevel" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Level <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="activationDistributedLevel" id="activationDistributedLevelCountry"><a href="#">Country</a></li>
+<!--                                                <li class="activationDistributedLevel" id="activationDistributedLevelBranch"><a href="#">Branch</a></li>-->
+                                                <li class="activationDistributedLevel" id="activationDistributedLevelL1"><a href="#">1st-level division</a></li>
+                                                <li class="activationDistributedLevel" id="activationDistributedLevelL2"><a href="#">2nd-level division</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <!--
+                                        <div id="activationDistributedLevel" style="margin-top: 3px;">
+                                            <button class="activationDistributedLevel" id="activationDistributedLevelCountry">Country</button>
+                                            <button class="activationDistributedLevel" id="activationDistributedLevelBranch">Branch</button>
+                                            <button class="activationDistributedLevel" id="activationDistributedLevelL1">1st-level division</button>
+                                            <button class="activationDistributedLevel" id="activationDistributedLevelL2">2nd-level division</button>
+                                        </div>
+-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+                        <div id="filterResult" class='needTohideAtFirst margin-left-20px' style="margin-top: 10px;">
+                            <label class="buttonSetLable" for="filterresult">Filters</label>
+                            <span id="filterBarResults"></span>
+                        </div>
+-->
+                    </div>
+                </div>
+                <!--workset-->
+                <div id="mapContainer">
+                    <div id="workset" style="display: none">
+                        <div id="mapid"></div>
+                        <div id="mapidComparison" style="display: none"></div>
+                        <div id="updatetime"></div>
+                    </div>
+                    <div id="tableContainer" style="display: none"></div>
+                    <div id="homepage"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--save bookmark dialog-->
+    <div id="bookmarkDialog" style="display:none;">
+        <div id="addBookmarkDialog">
+            Title:
+            <br>
+            <textarea style="resize:none" rows="1" cols="55" id="bookmark_title"></textarea>
+            <br> Description:
+            <br>
+            <textarea style="resize:none" rows="7" cols="55" id="bookmark_description"></textarea>
+            <br>
+        </div>
+        <div id="bookmarkList">
+            <ul id="bk-ul"></ul>
+        </div>
+    </div>
+
+    <!--   -->
+    <div class="modal fade" id="alertDialogModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body" id="alertDialog">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function() {
+            checkSSOCookie();
+        }());
+
+    </script>
+</body>
+
+</html>
