@@ -19,6 +19,7 @@ function init_() {
             isCFR: isCFR,
         },
         success: function (json) {
+            console.log(json);
             json = JSON.parse(decodeEntities(json));
                         console.log(json);
 
