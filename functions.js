@@ -191,7 +191,7 @@ function showAlert(text) {
     $('#alertDialogModal').modal({
         show: true
     });
-//    $("#alertDialog").dialog("open");
+    //    $("#alertDialog").dialog("open");
 }
 
 function showToast(text) {
@@ -216,7 +216,7 @@ function loadingDismiss() {
 
 function enableFuncSelector() {
     if (isFunctionSelectorInit)
-        $(".homeMenuListItem").attr('click-disable',true);
+        $(".homeMenuListItem").attr('click-disable', true);
 }
 
 function disableFuncSelector() {
@@ -428,63 +428,63 @@ function getCookie(cname) {
 
 function checkSSOCookie() {
     //no need to check developer's permission
-    if (window.location.href.indexOf('localhost') >= 0 || window.location.href.indexOf('127.0.0.1') >= 0) {
-        DEVMode = true;
-        isVIP(function () {
-            init_()
-        });
-        return;
-    } else if (window.location.href.indexOf('asus.com') >= 0) {
-        if (getCookie('SSO') == "") {
-            window.location = "./sso/sso.html";
-        } else {
-            var c = getCookie('SSO').split('&');
-            account = c[3].substring((c[3].indexOf('=') + 1));
-            isVIP(function () {
-                init_()
-            });
-            //            var accessable = isInArray(accessableList, account);
-            //            if (!accessable)
-            //                window.location.href = '404.html';
-        }
-    } else {
-        noPermissionShow();
-        //window.location.href = '404.html';
-    }
+    //    if (window.location.href.indexOf('localhost') >= 0 || window.location.href.indexOf('127.0.0.1') >= 0) {
+    DEVMode = true;
+    isVIP(function () {
+        init_()
+    });
+    return;
+    //    } else if (window.location.href.indexOf('asus.com') >= 0) {
+    //        if (getCookie('SSO') == "") {
+    //            window.location = "./sso/sso.html";
+    //        } else {
+    //            var c = getCookie('SSO').split('&');
+    //            account = c[3].substring((c[3].indexOf('=') + 1));
+    //            isVIP(function () {
+    //                init_()
+    //            });
+    //            //            var accessable = isInArray(accessableList, account);
+    //            //            if (!accessable)
+    //            //                window.location.href = '404.html';
+    //        }
+    //    } else {
+    //        noPermissionShow();
+    //        //window.location.href = '404.html';
+    //    }
 }
 
 function isVIP(callback) {
-    if (window.location.href.indexOf('localhost') >= 0 || window.location.href.indexOf('127.0.0.1') >= 0) {
-        isVip = true;
-        callback();
-    } 
-    else {
-        $.ajax({
-            url: "php/_dbqueryCheckVip.php",
-            type: "POST",
-            data: {
-                account: account,
-            },
-            dataType: 'text',
-
-            success: function (result) {
-                result = JSON.parse(decodeEntities(result));
-                //            console.log(result);
-                isVip = (result.isvip == 1);
-                isAdministrator = (result.isAdministrator == 1);
-                isCFR = isAdministrator || (result.isCFR == 1);
-
-                console.log('isVip:' + isVip);
-                console.log('isAdministrator:' + isAdministrator);
-                console.log('isCFR:' + isCFR);
-                callback();
-            },
-            error: function (xhr, ajaxOptions, thrownError) {
-                alert("isVIP:" + xhr.status);
-                alert(thrownError);
-            }
-        });
-    }
+    //    if (window.location.href.indexOf('localhost') >= 0 || window.location.href.indexOf('127.0.0.1') >= 0) {
+    isVip = true;
+    callback();
+    //    } 
+    //    else {
+    //        $.ajax({
+    //            url: "php/_dbqueryCheckVip.php",
+    //            type: "POST",
+    //            data: {
+    //                account: account,
+    //            },
+    //            dataType: 'text',
+    //
+    //            success: function (result) {
+    //                result = JSON.parse(decodeEntities(result));
+    //                //            console.log(result);
+    //                isVip = (result.isvip == 1);
+    //                isAdministrator = (result.isAdministrator == 1);
+    //                isCFR = isAdministrator || (result.isCFR == 1);
+    //
+    //                console.log('isVip:' + isVip);
+    //                console.log('isAdministrator:' + isAdministrator);
+    //                console.log('isCFR:' + isCFR);
+    //                callback();
+    //            },
+    //            error: function (xhr, ajaxOptions, thrownError) {
+    //                alert("isVIP:" + xhr.status);
+    //                alert(thrownError);
+    //            }
+    //        });
+    //    }
 }
 
 function updateReleaseNote() {
@@ -585,7 +585,7 @@ function partOfDayConvert(num) {
 }
 
 function optMapSize() {
-//    $('#mapContainer').css("height", '' + (window.innerHeight - $('#mapContainer').offset().top - 30) + 'px');
+    //    $('#mapContainer').css("height", '' + (window.innerHeight - $('#mapContainer').offset().top - 30) + 'px');
 }
 
 function removeBaseline(str) {
