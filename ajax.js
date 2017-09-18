@@ -115,12 +115,12 @@ function ajaxExtractMap(hasComparison, callback /*, args*/ ) {
         switch (dimension) {
             case DIMENSION_L1:
                 $.each(firstMap.currentRegionIso, function (index, loc) {
-                    urls.push("php/geojson/topo/L1/" + loc + ".json");
+                    urls.push("php/geojson/topo/L1/" + loc.toLowerCase() + ".json");
                 });
                 break;
             case DIMENSION_L2:
                 $.each(firstMap.currentRegionIso, function (index, loc) {
-                    urls.push("php/geojson/topo/L2/" + loc + ".json");
+                    urls.push("php/geojson/topo/L2/" + loc.toLowerCase() + ".json");
                 });
                 break;
                 //            case DIMENSION_BRANCH:
@@ -137,16 +137,17 @@ function ajaxExtractMap(hasComparison, callback /*, args*/ ) {
     //    }
     else if (!isL1(firstMap)) {
         $.each(firstMap.currentRegionIso, function (index, loc) {
-            urls.push("php/geojson/topo/L2/" + loc + ".json");
+            urls.push("php/geojson/topo/L2/" + loc.toLowerCase() + ".json");
         });
     } else {
         $.each(firstMap.currentRegionIso, function (index, loc) {
-            urls.push("php/geojson/topo/L1/" + loc + ".json");
+            urls.push("php/geojson/topo/L1/" + loc.toLowerCase() + ".json");
         });
     }
 
     var jxhr = [];
     $.each(urls, function (i, url) {
+        console.log(url);
         jxhr.push(
             $.ajax({
                 url: url,
