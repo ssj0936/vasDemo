@@ -18,7 +18,7 @@ function ajaxFetchMapValue() {
     //        console.log(JSON.stringify(observeSpec.front_camera));
     //        console.log(JSON.stringify(permission));
     var dimension = ((getFunction() == FUNC_ACTIVATION || getFunction() == FUNC_DISTBRANCH) ? mapObj.currentDimension : 'null');
-    var URLs = "php/_dbqueryCntGroupByISO_" + dimension + ".txt";
+    var URLs = "php/_dbqueryCntGroupByISO_dimension_l2.txt";
     console.log(URLs)
     $.ajax({
         url: URLs,
@@ -157,6 +157,7 @@ function ajaxExtractMap(hasComparison, callback /*, args*/ ) {
 
                 success: function (json) {
                     json = JSON.parse(decodeEntities(json));
+                    console.log(json);
                     for (var key in json.objects) {
                         //console.log(topojson.feature(json, json.objects[key]).features);
                         $.each(topojson.feature(json, json.objects[key]).features, function (index, regionjson) {
