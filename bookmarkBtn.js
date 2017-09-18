@@ -170,7 +170,7 @@ function bookmarkSubmit(index) {
             case FUNC_LIFEZONE:
                 removeHeatMap();
                 disableLifezoneControl();
-                firstMap.addSnapshot();
+//                firstMap.addSnapshot();
                 break;
             case FUNC_ACTIVATION_TABLE:
                 $('#tableContainer').empty();

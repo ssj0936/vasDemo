@@ -354,9 +354,9 @@ function unactiveModeBtn($this) {
 function activeModeBtn($this) {
     switch ($this.attr("id")) {
         case "region":
-            if (!firstMap.hasSnapshotBtn) {
-                firstMap.addSnapshot();
-            }
+//            if (!firstMap.hasSnapshotBtn) {
+//                firstMap.addSnapshot();
+//            }
             setModeOn(MODE_REGION);
             submitRegion();
             break;
@@ -637,7 +637,7 @@ function submitBtnSetting() {
                         console.log('switch from ' + FUNC_LIFEZONE);
                         removeHeatMap();
                         disableLifezoneControl();
-                        firstMap.addSnapshot();
+//                        firstMap.addSnapshot();
                         break;
                     case FUNC_ACTIVATION_TABLE:
                         console.log('switch from ' + FUNC_ACTIVATION_TABLE);
@@ -789,9 +789,9 @@ function submitBtnSetting() {
                         if (!$("button#region").hasClass("active"))
                             modeBtnPress($("button#region"));
 
-                        if (!firstMap.hasSnapshotBtn) {
-                            firstMap.addSnapshot();
-                        }
+//                        if (!firstMap.hasSnapshotBtn) {
+//                            firstMap.addSnapshot();
+//                        }
 
                         needToLoadTwoModeSameTime = (isRegionMarkerSametime()) ? true : false;
                         console.log("needToLoadTwoModeSameTime:" + needToLoadTwoModeSameTime);

@@ -58,12 +58,12 @@ function MapObject(mapname) {
             }).addTo(this.map, true);
 
             var mapobj = this;
-            this.snapshotBtn = L.easyButton('<img src="img/snapshot.png" style="width: 20px;">', function (btn, map) {
-                sessionStorage.patternIndex = firstMap.setColorGrade();
-                sessionStorage.colorPattern = JSON.stringify(colorPattern);
-                sessionStorage.zoom = mapobj.map.getZoom();
-                window.open('popup.html');
-            }); 
+//            this.snapshotBtn = L.easyButton('<img src="img/snapshot.png" style="width: 20px;">', function (btn, map) {
+//                sessionStorage.patternIndex = firstMap.setColorGrade();
+//                sessionStorage.colorPattern = JSON.stringify(colorPattern);
+//                sessionStorage.zoom = mapobj.map.getZoom();
+//                window.open('popup.html');
+//            }); 
         }
     };
 
@@ -1080,10 +1080,10 @@ function MapObject(mapname) {
         this.hasSnapshotBtn = false;
     }
 
-    this.addSnapshot = function () {
-        firstMap.snapshotBtn.addTo(firstMap.map);
-        firstMap.hasSnapshotBtn = true;
-    }
+//    this.addSnapshot = function () {
+//        firstMap.snapshotBtn.addTo(firstMap.map);
+//        firstMap.hasSnapshotBtn = true;
+//    }
 }
 
 function mapInit() {
