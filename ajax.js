@@ -21,7 +21,7 @@ function ajaxFetchMapValue() {
     var URLs = "php/_dbqueryCntGroupByISO_" + dimension + ".txt";
     $.ajax({
         url: URLs,
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -234,7 +234,7 @@ function ajaxFetchParallelValue() {
             data: JSON.stringify(observeTarget),
             permission: JSON.stringify(permission),
         },
-        type: "POST",
+        type: "GET",
         dataType: 'json',
 
         success: function (json) {
@@ -335,7 +335,7 @@ function ajaxParallelChart(iso, exportFileType) {
             permission: JSON.stringify(permission),
             exportFileType: exportFileType,
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -381,7 +381,7 @@ function ajaxParallelExport(exportFileType) {
             permission: JSON.stringify(permission),
             exportFileType: exportFileType,
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (text) {
@@ -416,7 +416,7 @@ function ajaxGetMarker() {
             dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
             permission: JSON.stringify(permission),
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -555,7 +555,7 @@ function ajaxTrendOfBranchChart(mapObj, branchName) {
             iso: JSON.stringify(observeLoc),
             permission: JSON.stringify(permission),
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -610,7 +610,7 @@ function ajaxRegionChart(countryID, iso, displayname, displaynum, mapObj) {
         //            permission: JSON.stringify(permission),
         //            dimension: mapObj.currentDimension,
         //        },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -636,7 +636,7 @@ function ajaxRegionChart(countryID, iso, displayname, displaynum, mapObj) {
 
 function ajaxTrendChart(mapObj) {
     var URLs = "php/_dbqueryGetTrend.php";
-    $.post(URLs, {
+    $.get(URLs, {
             color: JSON.stringify(observeSpec.color),
             cpu: JSON.stringify(observeSpec.cpu),
             rearCamera: JSON.stringify(observeSpec.rear_camera),
@@ -710,7 +710,7 @@ function ajaxFetchTableValue(isDiff) {
             dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
             permission: JSON.stringify(permission),
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -958,7 +958,7 @@ function ajaxSaveLog() {
 
 
     $.ajax({
-        type: 'POST',
+        type: 'GET',
         url: 'php/_dbquerySaveLog.php',
         dataType: 'json',
         data: {
@@ -1023,7 +1023,7 @@ function ajaxGetGapExport(groupBy) {
     loading('File creating...');
     console.log(currentPointingBranch);
     console.log(isNowBranchTrend);
-    $.post(
+    $.get(
         "php/_dbqueryGetGapExport.php", {
             color: JSON.stringify(observeSpec.color),
             cpu: JSON.stringify(observeSpec.cpu),
@@ -1064,7 +1064,7 @@ function ajaxGetHeatMap() {
     loading("Data loading...");
     $.ajax({
         url: "php/_dbqueryGetLifezoneData.php",
-        type: "POST",
+        type: "GET",
         data: {
             color: JSON.stringify(observeSpec.color),
             cpu: JSON.stringify(observeSpec.cpu),
@@ -1105,7 +1105,7 @@ function ajaxGetSQMarker() {
     loading("Data loading...");
     $.ajax({
         url: "php/_dbqueryGetSQDevice.php",
-        type: "POST",
+        type: "GET",
         data: {
             iso: JSON.stringify(observeLoc),
             data: JSON.stringify(observeTarget),
@@ -1132,7 +1132,7 @@ function ajaxGetSQRegion() {
     loading("Data loading...");
     $.ajax({
         url: "php/_dbqueryGetSQRegion.php",
-        type: "POST",
+        type: "GET",
         data: {
             color: JSON.stringify(observeSpec.color),
             cpu: JSON.stringify(observeSpec.cpu),
@@ -1176,7 +1176,7 @@ function ajaxGetActivationDistribution() {
             distributedBy: currentDistributedBy,
             distributedLevel: currentDistributedLevel,
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -1225,7 +1225,7 @@ function ajaxGetActivationTrend() {
             trendLevel: currentTrendLevel,
             trendTime: currentTrendTimescale,
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (json) {
@@ -1257,7 +1257,7 @@ function ajaxTableDetailExport() {
             to: mapObj.toFormatStr,
             permission: JSON.stringify(permission),
         },
-        type: "POST",
+        type: "GET",
         dataType: 'text',
 
         success: function (tableHTML) {
