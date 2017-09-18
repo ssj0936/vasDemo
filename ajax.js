@@ -17,8 +17,8 @@ function ajaxFetchMapValue() {
     //        console.log(JSON.stringify(observeSpec.rear_camera));
     //        console.log(JSON.stringify(observeSpec.front_camera));
     //        console.log(JSON.stringify(permission));
-    var dimension= ((getFunction() == FUNC_ACTIVATION || getFunction() == FUNC_DISTBRANCH) ? mapObj.currentDimension : 'null');
-    var URLs = "php/_dbqueryCntGroupByISO_"+dimension+".txt";
+    var dimension = ((getFunction() == FUNC_ACTIVATION || getFunction() == FUNC_DISTBRANCH) ? mapObj.currentDimension : 'null');
+    var URLs = "php/_dbqueryCntGroupByISO_" + dimension + ".txt";
     $.ajax({
         url: URLs,
         type: "POST",
@@ -27,7 +27,7 @@ function ajaxFetchMapValue() {
         success: function (json) {
             json = JSON.parse(decodeEntities(json));
             //clone
-//            json = [];
+            //            json = [];
             console.log(json);
             console.log("firstMap---JSON");
             if (getFunction() == FUNC_ACTIVATION && json.length == 0) {
@@ -36,7 +36,7 @@ function ajaxFetchMapValue() {
             } else {
                 mapObj.isEmpty = false;
             }
-            
+
             if (mapObj.countryMapping && mapObj.countryMapping.length != 0)
                 mapObj.countryMapping.length = 0;
             mapObj.countryMapping = json.slice();
@@ -48,17 +48,17 @@ function ajaxFetchMapValue() {
             //geoinfo is empty at first
             //so now put data(countryMapping) into it
             mapObj.updateMapProperties();
-            
+
             //map rendering
             mapObj.mapDataLoad();
-            
+
             //legend & info setting
             mapObj.updateLegend();
             if (mapObj.info == null) {
                 mapObj.setInfo();
             }
             mapObj.info.update();
-            
+
             //mouse hover & mouse click listener
             mapObj.setHighlightFeature();
 
@@ -123,18 +123,18 @@ function ajaxExtractMap(hasComparison, callback /*, args*/ ) {
                     urls.push("php/geojson/topo/l2/" + loc + ".json");
                 });
                 break;
-//            case DIMENSION_BRANCH:
-//                $.each(firstMap.currentRegionIso, function (index, loc) {
-//                    urls.push("php/geojson/topo/branch/" + loc + ".json");
-//                });
-//                break;
+                //            case DIMENSION_BRANCH:
+                //                $.each(firstMap.currentRegionIso, function (index, loc) {
+                //                    urls.push("php/geojson/topo/branch/" + loc + ".json");
+                //                });
+                //                break;
         }
     }
-//    else if (getFunction() == FUNC_GAP) {
-//        $.each(firstMap.currentRegionIso, function (index, loc) {
-//            urls.push("php/geojson/topo/branch/" + loc + ".json");
-//        });
-//    }
+    //    else if (getFunction() == FUNC_GAP) {
+    //        $.each(firstMap.currentRegionIso, function (index, loc) {
+    //            urls.push("php/geojson/topo/branch/" + loc + ".json");
+    //        });
+    //    }
     else if (!isL1(firstMap)) {
         $.each(firstMap.currentRegionIso, function (index, loc) {
             urls.push("php/geojson/topo/l2/" + loc + ".json");
@@ -148,15 +148,27 @@ function ajaxExtractMap(hasComparison, callback /*, args*/ ) {
     var jxhr = [];
     $.each(urls, function (i, url) {
         jxhr.push(
-            $.getJSON(url, function (json) {
-                for (var key in json.objects) {
-                    //console.log(topojson.feature(json, json.objects[key]).features);
-                    $.each(topojson.feature(json, json.objects[key]).features, function (index, regionjson) {
-                        if (regionjson.geometry) {
-                            regionjson.properties["boundBox"] = boundInit(regionjson.geometry);
-                            firstMap.jsonData.features.push(regionjson);
-                        }
-                    });
+            $.ajax({
+                url: url,
+                type: "POST",
+                dataType: 'text',
+
+                success: function (json) {
+                    json = JSON.parse(decodeEntities(json));
+                    for (var key in json.objects) {
+                        //console.log(topojson.feature(json, json.objects[key]).features);
+                        $.each(topojson.feature(json, json.objects[key]).features, function (index, regionjson) {
+                            if (regionjson.geometry) {
+                                regionjson.properties["boundBox"] = boundInit(regionjson.geometry);
+                                firstMap.jsonData.features.push(regionjson);
+                            }
+                        });
+                    }
+                },
+
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert("ajaxFetchMapValue:" + xhr.status);
+                    alert(thrownError);
                 }
             })
         );
@@ -572,31 +584,31 @@ function ajaxRegionChart(countryID, iso, displayname, displaynum, mapObj) {
     console.log(iso);
     console.log(JSON.stringify(permission));
     console.log(mapObj.currentDimension);
-        
+
     if (linechart != null) {
         linechart.destroy();
     }
-//    var URLs = "php/_dbquerySingleISOCnt.php";
+    //    var URLs = "php/_dbquerySingleISOCnt.php";
     var URLs = "php/_dbquerySingleISOCnt.txt";
     $.ajax({
         url: URLs,
-//        data: {
-//            dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
-//            color: JSON.stringify(observeSpec.color),
-//            cpu: JSON.stringify(observeSpec.cpu),
-//            rearCamera: JSON.stringify(observeSpec.rear_camera),
-//            frontCamera: JSON.stringify(observeSpec.front_camera),
-//            data: JSON.stringify(observeTarget),
-//            from: mapObj.fromFormatStr,
-//            to: mapObj.toFormatStr,
-//            countryID: countryID,
-//            //            isL1: isL1(firstMap),
-//            iso: iso,
-//            distBranch: JSON.stringify(observeDistBranch),
-//            onlineDist: JSON.stringify(observeDistName),
-//            permission: JSON.stringify(permission),
-//            dimension: mapObj.currentDimension,
-//        },
+        //        data: {
+        //            dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
+        //            color: JSON.stringify(observeSpec.color),
+        //            cpu: JSON.stringify(observeSpec.cpu),
+        //            rearCamera: JSON.stringify(observeSpec.rear_camera),
+        //            frontCamera: JSON.stringify(observeSpec.front_camera),
+        //            data: JSON.stringify(observeTarget),
+        //            from: mapObj.fromFormatStr,
+        //            to: mapObj.toFormatStr,
+        //            countryID: countryID,
+        //            //            isL1: isL1(firstMap),
+        //            iso: iso,
+        //            distBranch: JSON.stringify(observeDistBranch),
+        //            onlineDist: JSON.stringify(observeDistName),
+        //            permission: JSON.stringify(permission),
+        //            dimension: mapObj.currentDimension,
+        //        },
         type: "POST",
         dataType: 'text',
 
@@ -639,7 +651,7 @@ function ajaxTrendChart(mapObj) {
         },
         function (json) {
             json = JSON.parse(decodeEntities(json));
-                        console.log(json);
+            console.log(json);
             //special process for fucking Jonas's request
             for (var modelname in json.groupByModelResults) {
                 if (isNeedToAddStarInModelName(modelname)) {
@@ -888,8 +900,8 @@ function ajaxGetBranchObject(callback) {
                 delete json.union;
                 allHighlighBranch = json;
                 json = null;
-                                console.log(allBranchObject);
-                                console.log(allHighlighBranch);
+                console.log(allBranchObject);
+                console.log(allHighlighBranch);
                 callback();
             },
             error: function (jqXHR, textStatus, errorThrown) {
