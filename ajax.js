@@ -17,28 +17,15 @@ function ajaxFetchMapValue() {
     //        console.log(JSON.stringify(observeSpec.rear_camera));
     //        console.log(JSON.stringify(observeSpec.front_camera));
     //        console.log(JSON.stringify(permission));
-    var URLs = "php/_dbqueryCntGroupByISO.php";
+    var dimension= ((getFunction() == FUNC_ACTIVATION || getFunction() == FUNC_DISTBRANCH) ? mapObj.currentDimension : 'null');
+    var URLs = "php/_dbqueryCntGroupByISO_"+dimension+".txt";
     $.ajax({
         url: URLs,
-        data: {
-            color: JSON.stringify(observeSpec.color),
-            cpu: JSON.stringify(observeSpec.cpu),
-            rearCamera: JSON.stringify(observeSpec.rear_camera),
-            frontCamera: JSON.stringify(observeSpec.front_camera),
-            iso: JSON.stringify(observeLoc),
-            distBranch: JSON.stringify(observeDistBranch),
-            onlineDist: JSON.stringify(observeDistName),
-            data: JSON.stringify(observeTarget),
-            from: mapObj.fromFormatStr,
-            to: mapObj.toFormatStr,
-            dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
-            dimension: ((getFunction() == FUNC_ACTIVATION || getFunction() == FUNC_DISTBRANCH) ? mapObj.currentDimension : 'null'),
-            permission: JSON.stringify(permission),
-        },
         type: "POST",
-        dataType: 'json',
+        dataType: 'text',
 
         success: function (json) {
+            json = JSON.parse(decodeEntities(json));
             //clone
 //            json = [];
             console.log(json);
@@ -589,26 +576,27 @@ function ajaxRegionChart(countryID, iso, displayname, displaynum, mapObj) {
     if (linechart != null) {
         linechart.destroy();
     }
-    var URLs = "php/_dbquerySingleISOCnt.php";
+//    var URLs = "php/_dbquerySingleISOCnt.php";
+    var URLs = "php/_dbquerySingleISOCnt.txt";
     $.ajax({
         url: URLs,
-        data: {
-            dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
-            color: JSON.stringify(observeSpec.color),
-            cpu: JSON.stringify(observeSpec.cpu),
-            rearCamera: JSON.stringify(observeSpec.rear_camera),
-            frontCamera: JSON.stringify(observeSpec.front_camera),
-            data: JSON.stringify(observeTarget),
-            from: mapObj.fromFormatStr,
-            to: mapObj.toFormatStr,
-            countryID: countryID,
-            //            isL1: isL1(firstMap),
-            iso: iso,
-            distBranch: JSON.stringify(observeDistBranch),
-            onlineDist: JSON.stringify(observeDistName),
-            permission: JSON.stringify(permission),
-            dimension: mapObj.currentDimension,
-        },
+//        data: {
+//            dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
+//            color: JSON.stringify(observeSpec.color),
+//            cpu: JSON.stringify(observeSpec.cpu),
+//            rearCamera: JSON.stringify(observeSpec.rear_camera),
+//            frontCamera: JSON.stringify(observeSpec.front_camera),
+//            data: JSON.stringify(observeTarget),
+//            from: mapObj.fromFormatStr,
+//            to: mapObj.toFormatStr,
+//            countryID: countryID,
+//            //            isL1: isL1(firstMap),
+//            iso: iso,
+//            distBranch: JSON.stringify(observeDistBranch),
+//            onlineDist: JSON.stringify(observeDistName),
+//            permission: JSON.stringify(permission),
+//            dimension: mapObj.currentDimension,
+//        },
         type: "POST",
         dataType: 'text',
 

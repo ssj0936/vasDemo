@@ -8,7 +8,7 @@ function init_() {
     //    console.log('account:' + account);
     //    console.log('isVip:' + isVip);
     //selector option init
-    var URLs = "php/dbqueryInit.php";
+    var URLs = "php/dbqueryInit.txt";
     $.ajax({
         url: URLs,
         type: "GET",
@@ -19,17 +19,12 @@ function init_() {
             isCFR: isCFR,
         },
         success: function (json) {
-            console.log(json);
+            //            console.log(json);
             json = JSON.parse(decodeEntities(json));
-                        console.log(json);
-
-            //rule:
-            //if isCFR => full permission and only CFR mode
-
+            console.log(json);
 
             if (!isVip && !json.isPass && !isCFR) {
                 noPermissionShow();
-                //window.location.href = '404.html';
             }
 
             isVip = json.isVIP;
@@ -38,12 +33,6 @@ function init_() {
             console.log('ispass:' + json.isPass);
             console.log('isVIP:' + isVip);
             console.log('isCFR:' + isCFR);
-
-            //remove CFR and LIFEZONE in official site
-//            if (window.location.href == 'http://http://data.asus.com/') {
-//                $('option[value="' + FUNC_LIFEZONE + '"]').remove();
-//                $('option[value="' + FUNC_QC + '"]').remove();
-//            }
 
             //custom user options depend on permission
             if (!DEVMode && !isAdministrator) {
@@ -156,13 +145,13 @@ function init_() {
 
     setAccount(' ' + account);
 
-//    ajaxLoadBookmark();
+    //    ajaxLoadBookmark();
 
     //init
     windowSizeSetting();
     resizeInit();
-//    saveBookmarkBtnSetting();
-//    loadBookmarkBtnSetting();
+    //    saveBookmarkBtnSetting();
+    //    loadBookmarkBtnSetting();
 
     dateBtnSetting();
     submitBtnSetting();
@@ -170,9 +159,9 @@ function init_() {
     timePeriodBtnSetting();
 
     collapseBtnInit();
-//    serviceBtnSetting();
-//    dealerBtnSetting();
-//    helpBtnSetting();
+    //    serviceBtnSetting();
+    //    dealerBtnSetting();
+    //    helpBtnSetting();
     updateReleaseNote();
     menuAndFilterSetting();
 
@@ -181,7 +170,7 @@ function init_() {
 
     //--------------------------------------
     starIconHoverSetting();
-    
+
     //expend at first
     activationFunctionListExpend();
 }
@@ -195,10 +184,10 @@ function windowSizeSetting() {
 
 //resize mapcontainer
 function mapContainerFitsize() {
-//    if (isInArray([FUNC_ACTIVATION, FUNC_DISTBRANCH, FUNC_GAP, FUNC_LIFEZONE, FUNC_PARALLEL, FUNC_QC], getFunction())) {
-//        $('#mapContainer').css("height", '' + (window.innerHeight - $('.navbar').outerHeight() - $('#control_Panel').outerHeight() - 30) + 'px');
-//    } else
-//        $('#mapContainer').css("height", 'auto');
+    //    if (isInArray([FUNC_ACTIVATION, FUNC_DISTBRANCH, FUNC_GAP, FUNC_LIFEZONE, FUNC_PARALLEL, FUNC_QC], getFunction())) {
+    //        $('#mapContainer').css("height", '' + (window.innerHeight - $('.navbar').outerHeight() - $('#control_Panel').outerHeight() - 30) + 'px');
+    //    } else
+    //        $('#mapContainer').css("height", 'auto');
 }
 
 function starIconHoverSetting() {
@@ -335,8 +324,8 @@ function datepickerSetting() {
         }
         datepickerSectionCollapse();
         $('#timeSectionBtnButton').html('Time Period <span class="caret"></span>');
-        
-        if($('#dateOK').hasClass('submited'))
+
+        if ($('#dateOK').hasClass('submited'))
             $('#dateOK').removeClass('submited')
     });
 
