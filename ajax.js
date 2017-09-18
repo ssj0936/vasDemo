@@ -19,6 +19,7 @@ function ajaxFetchMapValue() {
     //        console.log(JSON.stringify(permission));
     var dimension = ((getFunction() == FUNC_ACTIVATION || getFunction() == FUNC_DISTBRANCH) ? mapObj.currentDimension : 'null');
     var URLs = "php/_dbqueryCntGroupByISO_" + dimension + ".txt";
+    console.log(URLs)
     $.ajax({
         url: URLs,
         type: "GET",

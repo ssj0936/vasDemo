@@ -13,11 +13,11 @@ function init_() {
         url: URLs,
         type: "GET",
         dataType: 'text',
-        data: {
-            account: account,
-            isVIP: isVip,
-            isCFR: isCFR,
-        },
+//        data: {
+//            account: account,
+//            isVIP: isVip,
+//            isCFR: isCFR,
+//        },
         success: function (json) {
             //            console.log(json);
             json = JSON.parse(decodeEntities(json));
