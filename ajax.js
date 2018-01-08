@@ -577,14 +577,14 @@ function ajaxRegionChart(countryID, iso, displayname, displaynum, mapObj) {
     if (linechart != null) {
         linechart.destroy();
     }
-    var URLs = "php/_dbquerySingleISOCnt.txt";
+    var URLs = "php/_dbquerySingleISOCnt.json";
     $.ajax({
         url: URLs,
         type: "GET",
         dataType: 'text',
 
         success: function (json) {
-            json = JSON.parse(decodeEntities(json));
+            json = JSON.parse(json);
             //            console.log(json);
             //special process for fucking Jonas's request
             for (var modelname in json.groupByModelResults) {
