@@ -577,7 +577,7 @@ function ajaxRegionChart(countryID, iso, displayname, displaynum, mapObj) {
     if (linechart != null) {
         linechart.destroy();
     }
-    var URLs = "php/_dbquerySingleISOCnt.json";
+    var URLs = "php/dbquerySingleISOCnt.json";
     $.ajax({
         url: URLs,
         type: "GET",
