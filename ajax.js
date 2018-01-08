@@ -1162,27 +1162,36 @@ function ajaxGetSQRegion() {
 
 function ajaxGetActivationDistribution() {
     var mapObj = firstMap;
-    var URLs = "php/_dbqueryGetActivationDistribution.php";
+    var URLs = '';
+    switch (currentDistributedBy) {
+        case MODE_ACTIVATION_DISTRIBUTED_BY_MODEL:
+            URLs = "php/activationDistributedByModel.json";
+            break;
+        case MODE_ACTIVATION_DISTRIBUTED_BY_DEVICE:
+            URLs = "php/activationDistributedByDevice.json";
+            break;
+        case MODE_ACTIVATION_DISTRIBUTED_BY_REGION:
+            switch (currentDistributedLevel) {
+                case MODE_ACTIVATION_DISTRIBUTED_LEVEL_COUNTRY:
+                    URLs = "php/activationDistributedByRegion_activationDistributedLevelCountry.json";
+                    break;
+                case MODE_ACTIVATION_DISTRIBUTED_LEVEL_L1:
+                    URLs = "php/activationDistributedByRegion_activationDistributedLevelL1.json";
+                    break;
+                case MODE_ACTIVATION_DISTRIBUTED_LEVEL_L2:
+                    URLs = "php/activationDistributedByRegion_activationDistributedLevelL2.json";
+                    break;
+            }
+            break;
+    }
+    
     $.ajax({
         url: URLs,
-        data: {
-            color: JSON.stringify(observeSpec.color),
-            cpu: JSON.stringify(observeSpec.cpu),
-            rearCamera: JSON.stringify(observeSpec.rear_camera),
-            frontCamera: JSON.stringify(observeSpec.front_camera),
-            iso: JSON.stringify(observeLoc),
-            data: JSON.stringify(observeTarget),
-            from: mapObj.fromFormatStr,
-            to: mapObj.toFormatStr,
-            permission: JSON.stringify(permission),
-            distributedBy: currentDistributedBy,
-            distributedLevel: currentDistributedLevel,
-        },
         type: "GET",
         dataType: 'text',
 
         success: function (json) {
-            json = JSON.parse(decodeEntities(json));
+            json = JSON.parse(json);
             activationDistribution.showChart(json);
 
         },
@@ -1196,42 +1205,38 @@ function ajaxGetActivationDistribution() {
 
 function ajaxGetActivationTrend() {
     var mapObj = firstMap;
+    var URLs = '';
+    switch (currentTrendBy) {
+        case MODE_ACTIVATION_TREND_BY_MODEL:
+            URLs = "php/activationTrendByModel.txt";
+            break;
+        case MODE_ACTIVATION_TREND_BY_DEVICE:
+            URLs = "php/activationTrendByDevice.txt";
+            break;
+        case MODE_ACTIVATION_TREND_BY_REGION:
+            switch (currentTrendLevel) {
+                case MODE_ACTIVATION_TREND_LEVEL_COUNTRY:
+                    URLs = "php/activationTrendByRegion_activationTrendLevelCountry.json";
+                    break;
+                case MODE_ACTIVATION_TREND_LEVEL_L1:
+                    URLs = "php/activationTrendByRegion_activationTrendLevelL1.json";
+                    break;
+                case MODE_ACTIVATION_TREND_LEVEL_L2:
+                    URLs = "php/activationTrendByRegion_activationTrendLevelL2.json";
+                    break;
+            }
+            break;
+    }
 
-    //    console.log(JSON.stringify(observeSpec.color));
-    //    console.log(JSON.stringify(observeSpec.cpu));
-    //    console.log(JSON.stringify(observeSpec.rear_camera));
-    //    console.log(JSON.stringify(observeSpec.front_camera));
-    //    console.log(JSON.stringify(observeLoc));
-    //    console.log(JSON.stringify(observeTarget));
-    //    console.log(mapObj.fromFormatStr);
-    //    console.log(mapObj.toFormatStr);
-    //    console.log(JSON.stringify(permission));
-    //    console.log(currentTrendBy);
-    //    console.log(currentTrendLevel);
-    //    console.log(currentTrendTimescale);
-
-    var URLs = "php/_dbqueryGetActivationTrend.php";
     $.ajax({
         url: URLs,
-        data: {
-            color: JSON.stringify(observeSpec.color),
-            cpu: JSON.stringify(observeSpec.cpu),
-            rearCamera: JSON.stringify(observeSpec.rear_camera),
-            frontCamera: JSON.stringify(observeSpec.front_camera),
-            iso: JSON.stringify(observeLoc),
-            data: JSON.stringify(observeTarget),
-            from: mapObj.fromFormatStr,
-            to: mapObj.toFormatStr,
-            permission: JSON.stringify(permission),
-            trendBy: currentTrendBy,
-            trendLevel: currentTrendLevel,
-            trendTime: currentTrendTimescale,
-        },
         type: "GET",
         dataType: 'text',
 
         success: function (json) {
-            json = JSON.parse(decodeEntities(json));
+            var b = json;
+            console.log(b);
+            json = JSON.parse(json);
             activationTrend.showChart(json);
             console.log(json);
         },

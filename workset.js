@@ -298,7 +298,7 @@ function datepickerSectionCollapse() {
     $('#dateDropdownLeft').removeClass('datepickerShow');
 
     $('#datepickContainer').removeClass();
-    $('div#datePicker').datepicker('update', '');
+//    $('div#datePicker').datepicker('update', '');
 }
 
 function datepickerSectionExpend() {
