@@ -1234,11 +1234,9 @@ function ajaxGetActivationTrend() {
         dataType: 'text',
 
         success: function (json) {
-            var b = json;
-            console.log(b);
             json = JSON.parse(json);
             activationTrend.showChart(json);
-            console.log(json);
+//            console.log(json);
         },
 
         error: function (xhr, ajaxOptions, thrownError) {
