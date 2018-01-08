@@ -401,28 +401,14 @@ function ajaxParallelExport(exportFileType) {
 function ajaxGetMarker() {
     var mapObj = firstMap;
     console.log("ajaxGetMarker Start:" + getCurrentTime());
-    var URLs = "php/_dbqueryGetMarker_.php";
+    var URLs = "php/marker.json";
     $.ajax({
         url: URLs,
-        data: {
-            color: JSON.stringify(observeSpec.color),
-            cpu: JSON.stringify(observeSpec.cpu),
-            rearCamera: JSON.stringify(observeSpec.rear_camera),
-            frontCamera: JSON.stringify(observeSpec.front_camera),
-            iso: JSON.stringify(observeLoc),
-            distBranch: JSON.stringify(observeDistBranch),
-            onlineDist: JSON.stringify(observeDistName),
-            data: JSON.stringify(observeTarget),
-            from: mapObj.fromFormatStr,
-            to: mapObj.toFormatStr,
-            dataset: ((getFunction() == FUNC_LIFEZONE) ? FUNC_LIFEZONE : FUNC_ACTIVATION),
-            permission: JSON.stringify(permission),
-        },
         type: "GET",
         dataType: 'text',
 
         success: function (json) {
-            json = JSON.parse(decodeEntities(json));
+            json = JSON.parse(json);
             //clone
             console.log("ajaxGetMarker End:" + getCurrentTime());
             if (json.length == 0) {
