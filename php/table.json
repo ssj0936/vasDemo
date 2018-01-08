@@ -1,0 +1,3681 @@
+[{
+    "country": "India",
+    "name": "Vadodara",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Gurgaon",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Bhopal",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Jalgaon",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Mumbai City",
+    "cnt": 4,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Pune",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Delhi",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Hyderabad",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Ranga Reddy",
+    "cnt": 3,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Gautam Buddh Nagar",
+    "cnt": 2,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Nadia",
+    "cnt": 1,
+    "models": "MODEL4"
+}, {
+    "country": "India",
+    "name": "Bangalore Urban",
+    "cnt": 1,
+    "models": "MODEL5"
+}, {
+    "country": "India",
+    "name": "Kottayam",
+    "cnt": 1,
+    "models": "MODEL5"
+}, {
+    "country": "India",
+    "name": "Hyderabad",
+    "cnt": 1,
+    "models": "MODEL5"
+}, {
+    "country": "India",
+    "name": "Anantapur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Chittoor",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "East Godavari",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Guntur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Krishna",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kurnool",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Visakhapatnam",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "West Godavari",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Cachar",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Dhemaji",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Dhubri",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Dibrugarh",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Golaghat",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jorhat",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kamrup Metropolitan",
+    "cnt": 9,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Lakhimpur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Nagaon",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sivasagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sonitpur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tinsukia",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bhagalpur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Muzaffarpur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Nalanda",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Patna",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Samastipur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sitamarhi",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Chandigarh",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bilaspur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Korba",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Raipur",
+    "cnt": 7,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "North Goa",
+    "cnt": 6,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "South Goa",
+    "cnt": 7,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ahmedabad",
+    "cnt": 14,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Anand",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bhavnagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jamnagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Panchmahal",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Patan",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Rajkot",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Surat",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Surendranagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Vadodara",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Valsad",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ambala",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Gurgaon",
+    "cnt": 7,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kurukshetra",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Panchkula",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Panipat",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sonipat",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Yamunanagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kangra",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jammu",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bokaro",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Dhanbad",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Hazaribagh",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "East Singhbhum",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ramgarh",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ranchi",
+    "cnt": 6,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Seraikella-Kharsawan",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bangalore Urban",
+    "cnt": 53,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Belgaum",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bellary",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Chitradurga",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Davanagere",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Dharwad",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Gulbarga",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Haveri",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Mysore",
+    "cnt": 10,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Raichur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ramanagara",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Shimoga",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tumkur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Udupi",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Uttara Kannada",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Alappuzha",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ernakulam",
+    "cnt": 11,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Idukki",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kannur",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kottayam",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kozhikode",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Malappuram",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Palakkad",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Pathanamthitta",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Thiruvananthapuram",
+    "cnt": 9,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Thrissur",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Wayanad",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bhopal",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Hoshangabad",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Indore",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tikamgarh",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "West Nimar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ahmednagar",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Amravati",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Aurangabad",
+    "cnt": 6,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Chandrapur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jalgaon",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Latur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Mumbai City",
+    "cnt": 8,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Mumbai Suburban",
+    "cnt": 21,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Nagpur",
+    "cnt": 6,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Nashik",
+    "cnt": 7,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Palghar",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Pune",
+    "cnt": 18,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Raigad",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sindhudurg",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Thane",
+    "cnt": 11,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Washim",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Yavatmal",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "East Khasi Hills",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Aizawl",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Delhi",
+    "cnt": 48,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Angul",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Cuttack",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ganjam",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jagatsinghapur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jajpur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Khordha",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Pondicherry",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Amritsar",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bathinda",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Gurdaspur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jalandhar",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kapurthala",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ludhiana",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sahibzada Ajit Singh Nagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Shahid Bhagat Singh Nagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ajmer",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Alwar",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Baran",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bikaner",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Churu",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jaipur",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jhunjhunu",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jodhpur",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kota",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Nagaur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Pratapgarh",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ariyalur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Chennai",
+    "cnt": 15,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Coimbatore",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Cuddalore",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Dindigul",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Erode",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kanchipuram",
+    "cnt": 9,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kanyakumari",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Karur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Krishnagiri",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Madurai",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Namakkal",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Perambalur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Pudukkottai",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Salem",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sivaganga",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "The Nilgiris",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Theni",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tiruvallur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tiruvarur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tiruchirappalli",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tirunelveli",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tiruppur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Tiruvannamalai",
+    "cnt": 3,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Vellore",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Viluppuram",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Adilabad",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Hyderabad",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Karimnagar",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Medak",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Nalgonda",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ranga Reddy",
+    "cnt": 10,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Warangal",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Bareilly",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Faizabad",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Gautam Buddh Nagar",
+    "cnt": 4,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Ghaziabad",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Jhansi",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kanpur Nagar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kaushambi",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Lucknow",
+    "cnt": 13,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Meerut",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Mirzapur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Rampur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Shahjahanpur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Sultanpur",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Varanasi",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Dehradun",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Haridwar",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Nainital",
+    "cnt": 1,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Birbhum",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Howrah",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Hooghly",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Kolkata",
+    "cnt": 5,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "North 24 Parganas",
+    "cnt": 7,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Paschim Medinipur",
+    "cnt": 2,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "South 24 Parganas",
+    "cnt": 8,
+    "models": "MODEL3"
+}, {
+    "country": "India",
+    "name": "Anantapur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chittoor",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "East Godavari",
+    "cnt": 15,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Guntur",
+    "cnt": 10,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Krishna",
+    "cnt": 9,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kurnool",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sri Potti Sriramulu Nellore",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Prakasam",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Srikakulam",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Visakhapatnam",
+    "cnt": 18,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "West Godavari",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kadapa",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bongaigaon",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Cachar",
+    "cnt": 15,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Darrang",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dhemaji",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dhubri",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dibrugarh",
+    "cnt": 9,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dima Hasao",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hailakandi",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jorhat",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kamrup Metropolitan",
+    "cnt": 26,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kamrup",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Karbi Anglong",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Lakhimpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nagaon",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nalbari",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sivasagar",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sonitpur",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tinsukia",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Aurangabad",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bhagalpur",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bhojpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gaya",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kaimur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Katihar",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Muzaffarpur",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nalanda",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Patna",
+    "cnt": 27,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "East Champaran",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Purnia",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Saran",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Vaishali",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chandigarh",
+    "cnt": 25,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bilaspur",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Durg",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gariaband",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Korba",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Raipur",
+    "cnt": 19,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Rajnandgaon",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Surguja",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "North Goa",
+    "cnt": 15,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "South Goa",
+    "cnt": 18,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ahmedabad",
+    "cnt": 29,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Anand",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Aravalli",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Banaskantha",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bharuch",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dahod",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gandhinagar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jamnagar",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kutch",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kheda",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mehsana",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Narmada",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Navsari",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Patan",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Porbandar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Rajkot",
+    "cnt": 11,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sabarkantha",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Surat",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tapi",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dang",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Vadodara",
+    "cnt": 14,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Valsad",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ambala",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Faridabad",
+    "cnt": 12,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Palwal",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gurgaon",
+    "cnt": 21,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hisar",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jind",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Karnal",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Panchkula",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Panipat",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Yamunanagar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hamirpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kangra",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kinnaur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kullu",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mandi",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Shimla",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Solan",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jammu",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kargil",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bokaro",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Deoghar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dhanbad",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Giridih",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gumla",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hazaribagh",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Khunti",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "West Singhbhum",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "East Singhbhum",
+    "cnt": 16,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ramgarh",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ranchi",
+    "cnt": 47,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Seraikella-Kharsawan",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bangalore Rural",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bangalore Urban",
+    "cnt": 149,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Belgaum",
+    "cnt": 10,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bellary",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bidar",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Vijayapura",
+    "cnt": 12,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chamarajnagar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chikkaballapur",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chikkamagaluru",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dakshina Kannada",
+    "cnt": 15,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Davanagere",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dharwad",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gadag",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gulbarga",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hassan",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Haveri",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kodagu",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kolar",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Koppal",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mysore",
+    "cnt": 24,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Raichur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ramanagara",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Shimoga",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tumkur",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Udupi",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Uttara Kannada",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Alappuzha",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ernakulam",
+    "cnt": 48,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Idukki",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kannur",
+    "cnt": 18,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kasaragod",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kollam",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kottayam",
+    "cnt": 19,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kozhikode",
+    "cnt": 21,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Malappuram",
+    "cnt": 9,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Palakkad",
+    "cnt": 12,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Pathanamthitta",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Thiruvananthapuram",
+    "cnt": 42,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Thrissur",
+    "cnt": 20,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Wayanad",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Balaghat",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Betul",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bhopal",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chhatarpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dewas",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dhar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gwalior",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hoshangabad",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Indore",
+    "cnt": 16,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jabalpur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Katni",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ratlam",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sagar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Shivpuri",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ujjain",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ahmednagar",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Akola",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Amravati",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Aurangabad",
+    "cnt": 17,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Beed",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Buldhana",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chandrapur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jalgaon",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kolhapur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Latur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mumbai City",
+    "cnt": 18,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mumbai Suburban",
+    "cnt": 66,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nagpur",
+    "cnt": 23,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nashik",
+    "cnt": 22,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Palghar",
+    "cnt": 12,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Pune",
+    "cnt": 76,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Raigad",
+    "cnt": 15,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ratnagiri",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sangli",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Satara",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sindhudurg",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Solapur",
+    "cnt": 10,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Thane",
+    "cnt": 50,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Wardha",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Washim",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Yavatmal",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Churachandpur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Imphal East",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Imphal West",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "East Khasi Hills",
+    "cnt": 21,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ri Bhoi",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "West Garo Hills",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Aizawl",
+    "cnt": 13,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Lunglei",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dimapur",
+    "cnt": 11,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kohima",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mokokchung",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Phek",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Delhi",
+    "cnt": 242,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Angul",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Cuttack",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dhenkanal",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ganjam",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jajpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Khordha",
+    "cnt": 11,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mayurbhanj",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Puri",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sambalpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sundargarh",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mahe",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Pondicherry",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Amritsar",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bathinda",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Fatehgarh Sahib",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hoshiarpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jalandhar",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kapurthala",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ludhiana",
+    "cnt": 14,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sri Muktsar Sahib",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Pathankot",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Patiala",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sahibzada Ajit Singh Nagar",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Shahid Bhagat Singh Nagar",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ajmer",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Alwar",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bhilwara",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bikaner",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Churu",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jaipur",
+    "cnt": 18,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jhalawar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jhunjhunu",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jodhpur",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kota",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Pali",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sikar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sirohi",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tonk",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Udaipur",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chennai",
+    "cnt": 48,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Coimbatore",
+    "cnt": 12,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Cuddalore",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dindigul",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Erode",
+    "cnt": 9,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kanchipuram",
+    "cnt": 14,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kanyakumari",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Karur",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Madurai",
+    "cnt": 10,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nagapattinam",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Namakkal",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Perambalur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Pudukkottai",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ramanathapuram",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Salem",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Thanjavur",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tiruvallur",
+    "cnt": 9,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tiruvarur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Thoothukudi",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tiruchirappalli",
+    "cnt": 11,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tirunelveli",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tiruppur",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Tiruvannamalai",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Vellore",
+    "cnt": 9,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Viluppuram",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Virudhunagar",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Adilabad",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hyderabad",
+    "cnt": 21,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Karimnagar",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Khammam",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mahbubnagar",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Medak",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ranga Reddy",
+    "cnt": 27,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Warangal",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "West Tripura",
+    "cnt": 5,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Agra",
+    "cnt": 8,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Aligarh",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Allahabad",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ambedkar Nagar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bagpat",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bareilly",
+    "cnt": 13,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Basti",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Chandauli",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Deoria",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Faizabad",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gautam Buddh Nagar",
+    "cnt": 21,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Ghaziabad",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Gorakhpur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hapur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hardoi",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jhansi",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kanpur Nagar",
+    "cnt": 13,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kaushambi",
+    "cnt": 16,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Lakhimpur Kheri",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Lucknow",
+    "cnt": 48,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Meerut",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Mirzapur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Moradabad",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Raebareli",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Saharanpur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sant Ravidas Nagar",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sitapur",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sonbhadra",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Sultanpur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Unnao",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Varanasi",
+    "cnt": 21,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Almora",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Dehradun",
+    "cnt": 16,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Haridwar",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nainital",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Udham Singh Nagar",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Alipurduar",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Bardhaman",
+    "cnt": 6,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Birbhum",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Darjeeling",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Howrah",
+    "cnt": 7,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Hooghly",
+    "cnt": 4,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Jalpaiguri",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Kolkata",
+    "cnt": 13,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Maldah",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Nadia",
+    "cnt": 1,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "North 24 Parganas",
+    "cnt": 18,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Paschim Medinipur",
+    "cnt": 2,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Purba Medinipur",
+    "cnt": 3,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "South 24 Parganas",
+    "cnt": 9,
+    "models": "MODEL1"
+}, {
+    "country": "India",
+    "name": "Anantapur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Chittoor",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "East Godavari",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Guntur",
+    "cnt": 7,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Krishna",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kurnool",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Visakhapatnam",
+    "cnt": 11,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "West Godavari",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kadapa",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Cachar",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Darrang",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jorhat",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kamrup Metropolitan",
+    "cnt": 15,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kamrup",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sivasagar",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bhojpur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Gaya",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Madhepura",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Muzaffarpur",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Nalanda",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Patna",
+    "cnt": 11,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Chandigarh",
+    "cnt": 16,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Durg",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Korba",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Raipur",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Rajnandgaon",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Daman",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "North Goa",
+    "cnt": 12,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "South Goa",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ahmedabad",
+    "cnt": 10,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Amreli",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Anand",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bharuch",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bhavnagar",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Gandhinagar",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jamnagar",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kutch",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kheda",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Rajkot",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sabarkantha",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Surat",
+    "cnt": 9,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Vadodara",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Faridabad",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Gurgaon",
+    "cnt": 6,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Hisar",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jind",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Panchkula",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Rewari",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Solan",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Baramulla",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jammu",
+    "cnt": 6,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Reasi",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Samba",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Deoghar",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Dhanbad",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "East Singhbhum",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ranchi",
+    "cnt": 15,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Seraikella-Kharsawan",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Simdega",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bagalkot",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bangalore Rural",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bangalore Urban",
+    "cnt": 58,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Belgaum",
+    "cnt": 7,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bellary",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bidar",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Vijayapura",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Chikkamagaluru",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Chitradurga",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Dakshina Kannada",
+    "cnt": 15,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Davanagere",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Dharwad",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kolar",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Mysore",
+    "cnt": 13,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Shimoga",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Tumkur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Udupi",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Uttara Kannada",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Alappuzha",
+    "cnt": 7,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ernakulam",
+    "cnt": 17,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Idukki",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kollam",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kottayam",
+    "cnt": 8,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kozhikode",
+    "cnt": 12,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Malappuram",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Palakkad",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Pathanamthitta",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Thiruvananthapuram",
+    "cnt": 23,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Thrissur",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bhopal",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Gwalior",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Indore",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sagar",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ahmednagar",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Amravati",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Aurangabad",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Buldhana",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Chandrapur",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Dhule",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jalgaon",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kolhapur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Mumbai City",
+    "cnt": 7,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Mumbai Suburban",
+    "cnt": 23,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Nagpur",
+    "cnt": 6,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Nashik",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Palghar",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Pune",
+    "cnt": 27,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Raigad",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sangli",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Satara",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sindhudurg",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Solapur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Thane",
+    "cnt": 16,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Washim",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Yavatmal",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "East Khasi Hills",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Aizawl",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Dimapur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Mokokchung",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Delhi",
+    "cnt": 88,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Balasore",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Cuttack",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ganjam",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jharsuguda",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Khordha",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Mayurbhanj",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sambalpur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sundargarh",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Pondicherry",
+    "cnt": 6,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Amritsar",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bathinda",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Gurdaspur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Hoshiarpur",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jalandhar",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kapurthala",
+    "cnt": 6,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ludhiana",
+    "cnt": 12,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Pathankot",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Patiala",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Rupnagar",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sahibzada Ajit Singh Nagar",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Alwar",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bikaner",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Hanumangarh",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jaipur",
+    "cnt": 8,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Jodhpur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Rajsamand",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Tonk",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Udaipur",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Chennai",
+    "cnt": 21,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Coimbatore",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Cuddalore",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kanchipuram",
+    "cnt": 11,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kanyakumari",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Karur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Krishnagiri",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Madurai",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Nagapattinam",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Pudukkottai",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Salem",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "The Nilgiris",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Theni",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Tiruvallur",
+    "cnt": 11,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Thoothukudi",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Tiruchirappalli",
+    "cnt": 6,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Tirunelveli",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Tiruppur",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Tiruvannamalai",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Vellore",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Viluppuram",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Virudhunagar",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Hyderabad",
+    "cnt": 7,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Karimnagar",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Khammam",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Medak",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ranga Reddy",
+    "cnt": 22,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Warangal",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "West Tripura",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Agra",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Banda",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bareilly",
+    "cnt": 8,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Budaun",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Gautam Buddh Nagar",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Ghaziabad",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Gorakhpur",
+    "cnt": 4,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Hardoi",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kaushambi",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Lucknow",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Meerut",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Raebareli",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Rampur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Sultanpur",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Varanasi",
+    "cnt": 5,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Dehradun",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Haridwar",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bankura",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Bardhaman",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Birbhum",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Howrah",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Hooghly",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Kolkata",
+    "cnt": 8,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Nadia",
+    "cnt": 2,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "North 24 Parganas",
+    "cnt": 14,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Purba Medinipur",
+    "cnt": 3,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "Purulia",
+    "cnt": 1,
+    "models": "MODEL2"
+}, {
+    "country": "India",
+    "name": "South 24 Parganas",
+    "cnt": 8,
+    "models": "MODEL2"
+}]
