@@ -1019,24 +1019,12 @@ function ajaxGetHeatMap() {
 
     loading("Data loading...");
     $.ajax({
-        url: "php/_dbqueryGetLifezoneData.php",
+        url: "php/lifezone.json",
         type: "GET",
-        data: {
-            color: JSON.stringify(observeSpec.color),
-            cpu: JSON.stringify(observeSpec.cpu),
-            rearCamera: JSON.stringify(observeSpec.rear_camera),
-            frontCamera: JSON.stringify(observeSpec.front_camera),
-            iso: JSON.stringify(observeLoc),
-            distBranch: JSON.stringify(observeDistBranch),
-            onlineDist: JSON.stringify(observeDistName),
-            time: JSON.stringify(lifeZoneTime),
-            data: JSON.stringify(observeTarget),
-            permission: JSON.stringify(permission),
-        },
         dataType: 'text',
 
         success: function (json) {
-            json = JSON.parse(decodeEntities(json));
+            json = JSON.parse(json);
             //            console.log(json);
 
             //empty data return
